@@ -43,10 +43,4 @@ public class Contacts {
     public void setContactNumber(long contactNumber) {
         this.contactNumber = contactNumber;
     }
-
-    public Contacts(String firstName, String lastName, long contactNumber) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.contactNumber = contactNumber;
-    }
 }
